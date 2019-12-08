@@ -1,0 +1,13 @@
+#Name:          Lexora EDI
+#Description:   Automate EDI
+#Author:        Codnr
+#Version:       1
+
+import openpyxl
+
+def main():
+    LexoraSpreadSheet = openpyxl.load_workbook("LexoraHome-Lowe's-Lowe's-CoreMarketing-Lowe's-BathroomVanitieswith-08082019.xlsx")
+    print(type(LexoraSpreadSheet))
+
+if __name__ == '__main__':
+    main()
